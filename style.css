@@ -583,3 +583,32 @@ text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   .booking-card { padding: 32px 24px; }
   .form-row { grid-template-columns: 1fr; }
 }
+.pan{
+   display:flex;
+   position:relative;
+   margin-left:-25px;
+   
+}
+.waf{
+    display:flex;
+    position:relative;
+    margin-top:-50px;
+}
+.pc{
+    display:flex;
+    position:relative;
+    margin-left:25px;
+}
+h3{
+
+font-family: 'Balsamiq Sans';
+font-style: normal;
+font-weight: 400px;
+font-size:32px;
+text-align: center;
+
+color: rgba(41, 133, 170, 0.7);
+
+
+}
+
