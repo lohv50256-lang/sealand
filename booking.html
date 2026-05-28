@@ -17,40 +17,65 @@
               </ul>
             </nav>
         </header>
-         </header><form>
-      <div class="bro">
-  <h1>Забронювати столик</h1>
-  <p>Зарезервуйте ідеальний час у нашій затишній кав'ярні</p>
-  <p><label>Ваше повне ім'я</label></p><br><input type="text"><br>
-  <p><label>Дата бронювання</label></p><br><div class="bron"><input type="date"></div><p><label>Бажаний час</label></p><br><div class="tm"><input type="time"></div>
-  <p><label>Кількість гостей</label></p><br>
-  <div class="guests">
-    <button>-</button>
-    <span class="amount">2</span>
-    <button>+</button>
-  </div>
-  <div class="zgb"><input type="checkbox"></div><div class="zg"><p><label>Я згоден з правилами та умовами бронювання</label></p></div><br>
-  <button class="zgoden">✓ Підтвердити бронювання</button>
-</form>
+         <main>
+<div class = "heroblock">
+ 
+<section class="booking-section">
+  <div class="booking-bg"></div>
+  <div class="booking-card">
+    <h2 class="booking-title">Забронювати столик</h2>
+    <p class="booking-subtitle">Зарезервуйте ідеальний час у нашій затишній кав'ярні</p>
+
+    <form class="booking-form" onsubmit="handleBooking(event)">
+
+      <div class="form-group">
+        <label class="form-label" for="fullname">Ваше повне ім'я</label>
+        <input class="form-input" type="text" id="fullname" placeholder=" " required>
       </div>
-        <footer class="site-footer">
-  <div class="footer-top">
 
-    <div class="footer-about">
-      <h6>Про нас</h6>
-      <p>Ми єдине і неповторне кафе світу, яке має тюленів. Одне з найунікальніших кафе, яке ви тільки знайдете.</p>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="date">Дата бронювання</label>
+          <input class="form-input" type="date" id="date" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="time">Бажаний час</label>
+          <input class="form-input" type="time" id="time" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Кількість гостей</label>
+        <div class="guests-control">
+          <button type="button" class="guests-btn" onclick="changeGuests(-1)">−</button>
+          <span class="guests-value" id="guestsVal">2</span>
+          <button type="button" class="guests-btn" onclick="changeGuests(1)">+</button>
+        </div>
+        <input type="hidden" id="guests" value="2">
+      </div>
+
+      <label class="checkbox-label">
+        <input type="checkbox" id="agree" required>
+        <span class="checkbox-box"></span>
+        <span>Я згоден з правилами та умовами бронювання</span>
+      </label>
+
+      <button type="submit" class="submit-btn" id="submitBtn">
+        ✓ Підтвердити бронювання
+      </button>
+
+    </form>
+
+    <div class="success-msg" id="successMsg">
+      <div class="success-icon">🦭</div>
+      <p class="success-title">Бронювання підтверджено!</p>
+      <p class="success-text">Ми зателефонуємо вам для підтвердження. До зустрічі в Sealand!</p>
     </div>
-
-    <div class="footer-nav">
-      <h6>Навігація</h6>
-      <ul class="footer-links">
-        <li><a href="#">Головна</a></li>
-        <li><a href="#">Меню</a></li>
-        <li><a href="#">Бронювання</a></li>
-        <li><a href="#">Контакт з нами</a></li>
-      </ul>
+  </div>
+</section>
     </div>
-
+</main>
+<footer>
     <div class="footer-contacts">
       <h6>Контакти</h6>
       <ul class="footer-links">
