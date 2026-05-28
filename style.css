@@ -390,7 +390,6 @@ text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   .site-footer { padding: 36px 24px 20px; }
   .footer-bottom { flex-direction: column; align-items: flex-start; }
 }
-
 h1{
 font-family: 'Balsamiq Sans';
 font-style: normal;
@@ -445,6 +444,8 @@ input{
 .guests{
   text-align:center;
   font-size:30px;
+  border:1px solid black;
+  
 }
 button{
   font-size:30px;
@@ -454,4 +455,10 @@ button{
   position:relative;
   margin-left:50px;
   margin-top:0px;
+}
+.bro{
+  background-color:white;
+  padding:10px;
+  border-radius:30px;
+  border:1px solid black;
 }
