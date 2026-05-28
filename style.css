@@ -462,3 +462,19 @@ button{
   border-radius:30px;
   border:1px solid black;
 }
+.pan{
+   display:flex;
+   position:relative;
+   margin-left:-25px;
+   
+}
+.waf{
+    display:flex;
+    position:relative;
+    margin-top:-50px;
+}
+.pc{
+    display:flex;
+    position:relative;
+    margin-left:25px;
+}
