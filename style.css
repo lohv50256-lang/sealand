@@ -390,94 +390,7 @@ text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   .site-footer { padding: 36px 24px 20px; }
   .footer-bottom { flex-direction: column; align-items: flex-start; }
 }
-h1{
-font-family: 'Balsamiq Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 36px;
-text-align: center;
-color: #0A526C;
-}
-p{
-font-family: 'Balsamiq Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 12px;
-text-align: center;
-color: #2985AA;
-}
-label{
-font-family: 'Balsamiq Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-color: #2985AA;
-}
-input{
-  display:flex;
-  position:relative;
-  margin-left:575px;
-  font-size:30px;
-  border-radius:5px;
-}
-.zgoden{
-  background-color:#59C5F4;
-  display:flex;
-  position:relative;
-  margin-left:575px;
-  font-size:28px;
-  border-radius:5px;
-  color:white;
-}
-.bron{
-  display:flex;
-  position:relative;
-  margin-left:50px;
-}
-.tm{
-   display:flex;
-  position:relative;
-  margin-left:105px;
-}
-.guests{
-  text-align:center;
-  font-size:30px;
-  border:1px solid black;
-  
-}
-button{
-  font-size:30px;
-}
-.zgb{
-  display:flex;
-  position:relative;
-  margin-left:50px;
-  margin-top:0px;
-}
-.bro{
-  background-color:white;
-  padding:10px;
-  border-radius:30px;
-  border:1px solid black;
-}
-.pan{
-   display:flex;
-   position:relative;
-   margin-left:-25px;
-   
-}
-.waf{
-    display:flex;
-    position:relative;
-    margin-top:-50px;
-}
-.pc{
-    display:flex;
-    position:relative;
-    margin-left:25px;
-}
+
 
 .booking-section {
   position: relative;
@@ -489,7 +402,6 @@ button{
   overflow: hidden;
 }
 
-/* фонова картинка — заміни heroblock.jpg на своє фото інтер'єру */
 .booking-bg {
   position: absolute;
   inset: 0;
